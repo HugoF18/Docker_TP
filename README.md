@@ -1,3 +1,3 @@
 # Docker_TP
 
-Création d'un blog en 3 jour avec l'utilisation de Docker
+Création d'un blog en 3 jours avec l'utilisation de Docker
