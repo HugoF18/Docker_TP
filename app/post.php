@@ -23,7 +23,7 @@ if (isset($_POST['send'])){
     <title>postrie instantané</title>
 </head>
 <body>
-<form method="POST" action="">
+<form method="POST">
     <input type="text" name='pseudo'>
     <br><br>
     <textarea name="post"></textarea>
@@ -43,7 +43,7 @@ while($post = $recover_post->fetch()){
 }
 ?>
 
-<a href="deconnexion.php">
+<a href="logout.php">
     <button>Se déconnecter</button>
 </a>
 
